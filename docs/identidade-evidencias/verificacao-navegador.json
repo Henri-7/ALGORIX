@@ -1,0 +1,81 @@
+{
+  "textContrast": [
+    {
+      "checked": 89,
+      "failures": [],
+      "path": "/"
+    },
+    {
+      "checked": 217,
+      "failures": [],
+      "path": "/algoritmos"
+    },
+    {
+      "checked": 131,
+      "failures": [],
+      "path": "/laboratorio/arvores/avl"
+    },
+    {
+      "checked": 123,
+      "failures": [],
+      "path": "/laboratorio/arvores/avl"
+    },
+    {
+      "checked": 170,
+      "failures": [],
+      "path": "/laboratorio/grafos/dijkstra"
+    },
+    {
+      "checked": 106,
+      "failures": [],
+      "path": "/laboratorio/ordenacao/bubble-sort"
+    },
+    {
+      "checked": 110,
+      "failures": [],
+      "path": "/laboratorio/busca/busca-binaria"
+    },
+    {
+      "checked": 71,
+      "failures": [],
+      "path": "/comparar"
+    },
+    {
+      "checked": 216,
+      "failures": [],
+      "path": "/algoritmos"
+    },
+    {
+      "checked": 81,
+      "failures": [],
+      "path": "/"
+    },
+    {
+      "checked": 89,
+      "failures": [],
+      "path": "/laboratorio/ordenacao/bubble-sort"
+    }
+  ],
+  "mobile": {
+    "available": 360,
+    "content": 360,
+    "favicon": "/brand/algorix-symbol.svg",
+    "mark": [
+      {
+        "height": 36,
+        "loaded": true,
+        "src": "/brand/algorix-symbol.svg",
+        "width": 28
+      },
+      {
+        "height": 36,
+        "loaded": true,
+        "src": "/brand/algorix-symbol.svg",
+        "width": 24
+      }
+    ],
+    "theme": "#0E1117",
+    "viewport": 375
+  },
+  "console": []
+}

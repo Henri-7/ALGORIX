@@ -1,0 +1,560 @@
+﻿{
+    "checkedAt":  "2026-10-14T20:12:07.4857388-03:00",
+    "baseline":  "C:\\Users\\Micro\\.codex\\backups\\algorix-auditoria\\baseline-20261014-200108.json",
+    "commands":  [
+                     {
+                         "command":  "npm run lint",
+                         "exitCode":  0
+                     },
+                     {
+                         "files":  8,
+                         "exitCode":  0,
+                         "command":  "npm test",
+                         "tests":  216
+                     },
+                     {
+                         "typescript":  true,
+                         "exitCode":  0,
+                         "command":  "npm run build"
+                     },
+                     {
+                         "exitCode":  0,
+                         "command":  "npm audit --json",
+                         "knownVulnerabilities":  0
+                     }
+                 ],
+    "changed":  [
+                    {
+                        "path":  "src/algorithms/trees/timeline.ts",
+                        "before":  "6A854C6C3CE2046003F1D4D9922142591A86CA9BC3EB0ABE4DD3C7699A47282D",
+                        "after":  "9CE69D4121E2E642F4881D22E8BDAFA62E34DD73DAC2CD3E2086426ED76C681A"
+                    },
+                    {
+                        "path":  "src/components/Layout.tsx",
+                        "before":  "605516E30F5AE41B040B14EED9E05329AD1F153D21D5E2370A032D364ACE48BE",
+                        "after":  "9B49E09D6D1FBD25E00C2766615E4E98D01E428AA32F7669DEB717A5B6244CBF"
+                    },
+                    {
+                        "path":  "src/engine/usePlayback.ts",
+                        "before":  "7E6CCE8BC4FB014ED49DF5081BA7EFA18E5286BDE3FDE85E2C534FE09A8175D7",
+                        "after":  "3CBF7BF0F6B2994B1C73F82870C432D40C8AAADFC268B76969C44A06E13286AA"
+                    },
+                    {
+                        "path":  "src/features/Laboratory.tsx",
+                        "before":  "0AE0E0A0C2B117CAF6B8C6DEA9E89DBEE3F26D42936166DA9C68BE86859362F9",
+                        "after":  "53C2B7B4D6B1B4D02E5917C6BB5AEEE8DC80827DE117B000F74318F6A1C6E0E7"
+                    },
+                    {
+                        "path":  "src/features/graphs/GraphLaboratory.tsx",
+                        "before":  "0BF14E1897C4E7941064812094C8ABC2CCA1B17A8B11F750B0002B5F9A5E9C68",
+                        "after":  "C9A6F4158E022E43A45156CE4743E469FD63241FFA8735CFA266F78589A3021A"
+                    },
+                    {
+                        "path":  "src/features/graphs/GraphSvg.tsx",
+                        "before":  "FE72F6F25573CE4A5E98FF64D350B6F4A7BF2E4058D13F6B0AF329BEC93E9696",
+                        "after":  "84B33F20F76BA140F8404B41AC76A7AA741849E64658DDFFCE945884AD543635"
+                    },
+                    {
+                        "path":  "src/lib/input.ts",
+                        "before":  "859DBE8F2CF18DEF9503A725CEEE02A5FA1365CA765F2B206456D9B7D010CE3D",
+                        "after":  "5230B4F2FCCE05FDFCC6FA3EBFE3A31964ED07788CC61C197396C14C7978B4E0"
+                    },
+                    {
+                        "path":  "src/styles/global.css",
+                        "before":  "8249E23C013BBDC32532444D4CB6DCF004477FEACC08784C1B7A9D3C46C81B21",
+                        "after":  "788A675483EF1429B9C96DF61856E888641E87DF30FF0AEC3D4A1C5B2C8179E4"
+                    },
+                    {
+                        "path":  "src/tests/audit-algorithms.test.ts",
+                        "before":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                        "after":  "41AFFDA02849CBFABD7BA8D14B5AA7FFB4EE781C61E8B3CDA32918517E924E2A"
+                    },
+                    {
+                        "path":  "src/tests/audit-interface.test.tsx",
+                        "before":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                        "after":  "293E89F67F788688CD705CD64E28318C478A7BF83AD30953967D80C0EC6D6DE8"
+                    }
+                ],
+    "unchanged":  [
+                      {
+                          "path":  "src/main.tsx",
+                          "before":  "07FA69E0CDA283A3C606E628A9A20ADBFD8ABABA821C2832AEEED3DAACDFDD4D",
+                          "after":  "07FA69E0CDA283A3C606E628A9A20ADBFD8ABABA821C2832AEEED3DAACDFDD4D"
+                      },
+                      {
+                          "path":  "src/algorithms/searching.ts",
+                          "before":  "1E3445861C78074014059951DAAF10107B33682808963C2367F56EFCFD8EBF62",
+                          "after":  "1E3445861C78074014059951DAAF10107B33682808963C2367F56EFCFD8EBF62"
+                      },
+                      {
+                          "path":  "src/algorithms/sorting.ts",
+                          "before":  "49F79DC67B487D68B1E0DBB29325EC03AB15CB56712C1DB6E1B4FFD9BD349AA2",
+                          "after":  "49F79DC67B487D68B1E0DBB29325EC03AB15CB56712C1DB6E1B4FFD9BD349AA2"
+                      },
+                      {
+                          "path":  "src/algorithms/graphs/examples.ts",
+                          "before":  "4BAA2734E9D85AD736212EE517D4E0516657546CA109945D77CAA7314590B550",
+                          "after":  "4BAA2734E9D85AD736212EE517D4E0516657546CA109945D77CAA7314590B550"
+                      },
+                      {
+                          "path":  "src/algorithms/graphs/model.ts",
+                          "before":  "4F9AA0B04936983AFF412F075D5FA9A6E59B613B67131DC026F1382C2C3B3898",
+                          "after":  "4F9AA0B04936983AFF412F075D5FA9A6E59B613B67131DC026F1382C2C3B3898"
+                      },
+                      {
+                          "path":  "src/algorithms/graphs/timeline.ts",
+                          "before":  "3185187F71AEC9C57E2C3B0F20B3757148AEDEB89DBBE514E7FCB5AC2FFE2637",
+                          "after":  "3185187F71AEC9C57E2C3B0F20B3757148AEDEB89DBBE514E7FCB5AC2FFE2637"
+                      },
+                      {
+                          "path":  "src/algorithms/trees/layout.ts",
+                          "before":  "2B4086623BA497872A17BA639A4370B36CD8F1727BA661E843003AEF87FA63A0",
+                          "after":  "2B4086623BA497872A17BA639A4370B36CD8F1727BA661E843003AEF87FA63A0"
+                      },
+                      {
+                          "path":  "src/algorithms/trees/model.ts",
+                          "before":  "62E05CE7CBB8AC14D724F374B86730C3F46D405915FD9C50220C89B917A90A49",
+                          "after":  "62E05CE7CBB8AC14D724F374B86730C3F46D405915FD9C50220C89B917A90A49"
+                      },
+                      {
+                          "path":  "src/components/InfoPanel.tsx",
+                          "before":  "AB97174D858F26E5CAC1E3437E6D36D0099619DB88C792B68C2CEFA4EA818A56",
+                          "after":  "AB97174D858F26E5CAC1E3437E6D36D0099619DB88C792B68C2CEFA4EA818A56"
+                      },
+                      {
+                          "path":  "src/components/InputEditor.tsx",
+                          "before":  "489237E97EE0BCDF3B2E60C09A21B2CC823E1E75FBB519B08C88E67B778D32F3",
+                          "after":  "489237E97EE0BCDF3B2E60C09A21B2CC823E1E75FBB519B08C88E67B778D32F3"
+                      },
+                      {
+                          "path":  "src/components/LaboratoryNavigation.tsx",
+                          "before":  "C0B21D9E26C2B34B41084BFA13AA078ECCBAA24D626D35FA1EFEB6C489C5B76B",
+                          "after":  "C0B21D9E26C2B34B41084BFA13AA078ECCBAA24D626D35FA1EFEB6C489C5B76B"
+                      },
+                      {
+                          "path":  "src/components/Logo.tsx",
+                          "before":  "46A05AC1E031B184A180B14A506E365BF83A0D4B08F0AB9668F9DA711E90EDBA",
+                          "after":  "46A05AC1E031B184A180B14A506E365BF83A0D4B08F0AB9668F9DA711E90EDBA"
+                      },
+                      {
+                          "path":  "src/components/PlaybackControls.tsx",
+                          "before":  "B35DF29326D4A95007471A09AF927BB51F3C1CD877C35230B5D2E906ACFF7FD7",
+                          "after":  "B35DF29326D4A95007471A09AF927BB51F3C1CD877C35230B5D2E906ACFF7FD7"
+                      },
+                      {
+                          "path":  "src/components/Visualization.tsx",
+                          "before":  "B16E3FEC8C875E047F14FC6C76E3D6E4D114D0DDA2966B369409650E232740FC",
+                          "after":  "B16E3FEC8C875E047F14FC6C76E3D6E4D114D0DDA2966B369409650E232740FC"
+                      },
+                      {
+                          "path":  "src/components/network/ExecutionPanel.tsx",
+                          "before":  "DAAA4DCD9454A2D7A4A3E331A187B65B3C3C567005BA34F045911A6FCAE1722E",
+                          "after":  "DAAA4DCD9454A2D7A4A3E331A187B65B3C3C567005BA34F045911A6FCAE1722E"
+                      },
+                      {
+                          "path":  "src/components/network/SvgViewport.tsx",
+                          "before":  "499DB39CA45FEC2E98AC8A3907CB603AE95B1BB2B3703296D48CE35C8EADE29C",
+                          "after":  "499DB39CA45FEC2E98AC8A3907CB603AE95B1BB2B3703296D48CE35C8EADE29C"
+                      },
+                      {
+                          "path":  "src/data/algorithms.ts",
+                          "before":  "09E331DA1FDC63906423BAF96C8F2D85C15BC530B5974191436697B6DA920A30",
+                          "after":  "09E331DA1FDC63906423BAF96C8F2D85C15BC530B5974191436697B6DA920A30"
+                      },
+                      {
+                          "path":  "src/data/catalog.ts",
+                          "before":  "BBD7505A1DF43F80A735991CE27A79B3A670F9FB4D6A4973DBAC1016192FFCF2",
+                          "after":  "BBD7505A1DF43F80A735991CE27A79B3A670F9FB4D6A4973DBAC1016192FFCF2"
+                      },
+                      {
+                          "path":  "src/data/networkAlgorithms.ts",
+                          "before":  "8D91C6FD77C4CDE06355413D79F27F2E7C292C58F19092C42F22ADF77B092A09",
+                          "after":  "8D91C6FD77C4CDE06355413D79F27F2E7C292C58F19092C42F22ADF77B092A09"
+                      },
+                      {
+                          "path":  "src/engine/types.ts",
+                          "before":  "710959FCA93B5230CAB8E1E0F1F90CD5C935D928B0838206E8CE292A7FB33312",
+                          "after":  "710959FCA93B5230CAB8E1E0F1F90CD5C935D928B0838206E8CE292A7FB33312"
+                      },
+                      {
+                          "path":  "src/features/About.tsx",
+                          "before":  "DF631E19EE1B2223EBCE69E47FBF0B98138C4DEFD87A849111D6C780997F5A4A",
+                          "after":  "DF631E19EE1B2223EBCE69E47FBF0B98138C4DEFD87A849111D6C780997F5A4A"
+                      },
+                      {
+                          "path":  "src/features/Catalog.tsx",
+                          "before":  "9FE9E42FA13F4B7FB74D1229FCBAFFC4146853A10BD030BE25F2A7893591F03C",
+                          "after":  "9FE9E42FA13F4B7FB74D1229FCBAFFC4146853A10BD030BE25F2A7893591F03C"
+                      },
+                      {
+                          "path":  "src/features/Comparison.tsx",
+                          "before":  "961999895C8A2D5FBFFA892A44C025A8B0D169A767118B4686EFAE157C92CDCC",
+                          "after":  "961999895C8A2D5FBFFA892A44C025A8B0D169A767118B4686EFAE157C92CDCC"
+                      },
+                      {
+                          "path":  "src/features/Home.tsx",
+                          "before":  "2D68FE02DB3A27AFDE359C927CECC6B104199359AAC9499FD23874A8F2534E92",
+                          "after":  "2D68FE02DB3A27AFDE359C927CECC6B104199359AAC9499FD23874A8F2534E92"
+                      },
+                      {
+                          "path":  "src/features/graphs/content.ts",
+                          "before":  "F0C064066E7072381E0733DAF9D2851717893CC5AEA01FE82B8C6989E85661F6",
+                          "after":  "F0C064066E7072381E0733DAF9D2851717893CC5AEA01FE82B8C6989E85661F6"
+                      },
+                      {
+                          "path":  "src/features/graphs/GraphEditor.tsx",
+                          "before":  "2F0D289C525DF19A99CB808E9F223873C226265EDA54DCFEDBDCF06366210D47",
+                          "after":  "2F0D289C525DF19A99CB808E9F223873C226265EDA54DCFEDBDCF06366210D47"
+                      },
+                      {
+                          "path":  "src/features/trees/content.ts",
+                          "before":  "B49DEB91B6EB746195A7A1A65F9F50C4A4C8567A738495DA10B6C60C11A7FF4F",
+                          "after":  "B49DEB91B6EB746195A7A1A65F9F50C4A4C8567A738495DA10B6C60C11A7FF4F"
+                      },
+                      {
+                          "path":  "src/features/trees/TreeLaboratory.tsx",
+                          "before":  "8CDEF5415D3CB6F70CB944F9B2EB6F6A9F15D0A678EB505620C8ACC15EEC5A08",
+                          "after":  "8CDEF5415D3CB6F70CB944F9B2EB6F6A9F15D0A678EB505620C8ACC15EEC5A08"
+                      },
+                      {
+                          "path":  "src/features/trees/TreeSvg.tsx",
+                          "before":  "470153BBEE8927F5B4D32F4F9B73AD2A9514573E714B59FCCF31B28C7165F4CD",
+                          "after":  "470153BBEE8927F5B4D32F4F9B73AD2A9514573E714B59FCCF31B28C7165F4CD"
+                      },
+                      {
+                          "path":  "src/styles/networks.css",
+                          "before":  "42DE09917A895DD57859B33C8FC3F1AF412C10025CC7DCBBE970A5F6A14CF6A4",
+                          "after":  "42DE09917A895DD57859B33C8FC3F1AF412C10025CC7DCBBE970A5F6A14CF6A4"
+                      },
+                      {
+                          "path":  "src/tests/algorithms.test.ts",
+                          "before":  "DE0BA59EAC8C20EF4DFF85473CFD005B5E60CB72FDC562270DA2E11F38B316BF",
+                          "after":  "DE0BA59EAC8C20EF4DFF85473CFD005B5E60CB72FDC562270DA2E11F38B316BF"
+                      },
+                      {
+                          "path":  "src/tests/graphs.test.ts",
+                          "before":  "4B76324635F8184FAA1074FE8A81FF5CA330A1BA84B70DEE1954CFB51BCADF7D",
+                          "after":  "4B76324635F8184FAA1074FE8A81FF5CA330A1BA84B70DEE1954CFB51BCADF7D"
+                      },
+                      {
+                          "path":  "src/tests/interface.test.tsx",
+                          "before":  "C5200AC9FD5F34DBBCF00FA72E51BFE00A58B755735F3AF012B2DD706A0FC9A0",
+                          "after":  "C5200AC9FD5F34DBBCF00FA72E51BFE00A58B755735F3AF012B2DD706A0FC9A0"
+                      },
+                      {
+                          "path":  "src/tests/network-interface.test.tsx",
+                          "before":  "FE882217F9BB046BF2BFB530B7D07ACF161F430712B323F44808C5CC059C2553",
+                          "after":  "FE882217F9BB046BF2BFB530B7D07ACF161F430712B323F44808C5CC059C2553"
+                      },
+                      {
+                          "path":  "src/tests/playback.test.tsx",
+                          "before":  "6A9AC310D887950C6800BE578CB9D00A01535BF51539F51E4436044B5115B20A",
+                          "after":  "6A9AC310D887950C6800BE578CB9D00A01535BF51539F51E4436044B5115B20A"
+                      },
+                      {
+                          "path":  "src/tests/setup.ts",
+                          "before":  "4F88BC226533654848B5402215A5977636044D3FD41F9B1374A7AFF4CB8BFA5A",
+                          "after":  "4F88BC226533654848B5402215A5977636044D3FD41F9B1374A7AFF4CB8BFA5A"
+                      },
+                      {
+                          "path":  "src/tests/trees.test.ts",
+                          "before":  "1C0D60F0F422CF21A2156B48ABC5B7A7BC57696D92625FA47D91C12DFCA0B528",
+                          "after":  "1C0D60F0F422CF21A2156B48ABC5B7A7BC57696D92625FA47D91C12DFCA0B528"
+                      },
+                      {
+                          "path":  "package.json",
+                          "before":  "BCB17EC86DD9E2E88F2157D8FE6508E5612BB7B35974DC453256BB73A6257FFC",
+                          "after":  "BCB17EC86DD9E2E88F2157D8FE6508E5612BB7B35974DC453256BB73A6257FFC"
+                      },
+                      {
+                          "path":  "package-lock.json",
+                          "before":  "7953D7D7677D63ABF447567BD11F23BDADA913C8787F4898D5C8CB13F7546D14",
+                          "after":  "7953D7D7677D63ABF447567BD11F23BDADA913C8787F4898D5C8CB13F7546D14"
+                      },
+                      {
+                          "path":  "index.html",
+                          "before":  "A1229EDBC831D3359BE7FA31E8844717F317D617B0D06688BD89FA56EDE1E7E8",
+                          "after":  "A1229EDBC831D3359BE7FA31E8844717F317D617B0D06688BD89FA56EDE1E7E8"
+                      },
+                      {
+                          "path":  "vite.config.ts",
+                          "before":  "528907F9BDCE8F9DF9C49BE42634E737EDA9C164F5255BA3B4ADC21F2845B711",
+                          "after":  "528907F9BDCE8F9DF9C49BE42634E737EDA9C164F5255BA3B4ADC21F2845B711"
+                      },
+                      {
+                          "path":  "tsconfig.json",
+                          "before":  "C630A22CE9E204CF2514ABE18AEBE8C98A08DDECCEAAB189186DE5923749F14C",
+                          "after":  "C630A22CE9E204CF2514ABE18AEBE8C98A08DDECCEAAB189186DE5923749F14C"
+                      },
+                      {
+                          "path":  "eslint.config.js",
+                          "before":  "82DDE4CDAB70DDFAA50E4BEA3F376C7BF706E92EBF1CFB6E4C70C1C4C1BD48D2",
+                          "after":  "82DDE4CDAB70DDFAA50E4BEA3F376C7BF706E92EBF1CFB6E4C70C1C4C1BD48D2"
+                      }
+                  ],
+    "httpRoutes":  [
+                       {
+                           "path":  "/",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/algoritmos",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/ordenacao/bubble-sort",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/ordenacao/selection-sort",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/ordenacao/insertion-sort",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/ordenacao/merge-sort",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/ordenacao/quick-sort",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/busca/busca-linear",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/busca/busca-binaria",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/arvores",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/arvores/bst",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/arvores/avl",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/grafos",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/grafos/bfs",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/grafos/dfs",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/laboratorio/grafos/dijkstra",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/comparar",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/sobre",
+                           "status":  200
+                       },
+                       {
+                           "path":  "/rota-inexistente-auditoria",
+                           "status":  200
+                       }
+                   ],
+    "httpAssets":  [
+                       {
+                           "path":  "About-BRdssq0D.js",
+                           "status":  200,
+                           "bytes":  2752
+                       },
+                       {
+                           "path":  "algorithms-DhsUDJZc.js",
+                           "status":  200,
+                           "bytes":  5981
+                       },
+                       {
+                           "path":  "braces-CG0_a0Yz.js",
+                           "status":  200,
+                           "bytes":  280
+                       },
+                       {
+                           "path":  "catalog-BFLs_C-D.js",
+                           "status":  200,
+                           "bytes":  2791
+                       },
+                       {
+                           "path":  "Catalog-B_fSPIeo.js",
+                           "status":  200,
+                           "bytes":  3176
+                       },
+                       {
+                           "path":  "Comparison-CLWK2T2B.js",
+                           "status":  200,
+                           "bytes":  4259
+                       },
+                       {
+                           "path":  "flask-conical-DCTyGy1i.js",
+                           "status":  200,
+                           "bytes":  303
+                       },
+                       {
+                           "path":  "GraphLaboratory-CjvfSD20.js",
+                           "status":  200,
+                           "bytes":  30261
+                       },
+                       {
+                           "path":  "Home-CwHpJarj.js",
+                           "status":  200,
+                           "bytes":  9896
+                       },
+                       {
+                           "path":  "index-CpVIT_sN.css",
+                           "status":  200,
+                           "bytes":  45123
+                       },
+                       {
+                           "path":  "index-kjTVO2mu.js",
+                           "status":  200,
+                           "bytes":  270805
+                       },
+                       {
+                           "path":  "InputEditor-D5OmVVP3.js",
+                           "status":  200,
+                           "bytes":  3510
+                       },
+                       {
+                           "path":  "inter-latin-400-normal-C38fXH4l.woff2",
+                           "status":  200,
+                           "bytes":  23664
+                       },
+                       {
+                           "path":  "inter-latin-400-normal-CyCys3Eg.woff",
+                           "status":  200,
+                           "bytes":  30696
+                       },
+                       {
+                           "path":  "inter-latin-500-normal-BL9OpVg8.woff",
+                           "status":  200,
+                           "bytes":  31284
+                       },
+                       {
+                           "path":  "inter-latin-500-normal-Cerq10X2.woff2",
+                           "status":  200,
+                           "bytes":  24272
+                       },
+                       {
+                           "path":  "inter-latin-600-normal-CiBQ2DWP.woff",
+                           "status":  200,
+                           "bytes":  31260
+                       },
+                       {
+                           "path":  "inter-latin-600-normal-LgqL8muc.woff2",
+                           "status":  200,
+                           "bytes":  24452
+                       },
+                       {
+                           "path":  "jetbrains-mono-latin-400-normal-6-qcROiO.woff",
+                           "status":  200,
+                           "bytes":  27496
+                       },
+                       {
+                           "path":  "jetbrains-mono-latin-400-normal-V6pRDFza.woff2",
+                           "status":  200,
+                           "bytes":  21168
+                       },
+                       {
+                           "path":  "Laboratory-DLud0x7D.js",
+                           "status":  200,
+                           "bytes":  7488
+                       },
+                       {
+                           "path":  "LaboratoryNavigation-BGFsYJxT.js",
+                           "status":  200,
+                           "bytes":  2677
+                       },
+                       {
+                           "path":  "layers-BTktYzmJ.js",
+                           "status":  200,
+                           "bytes":  582
+                       },
+                       {
+                           "path":  "networks-BHB_Lbge.js",
+                           "status":  200,
+                           "bytes":  2426
+                       },
+                       {
+                           "path":  "networks-DeJqTTUk.css",
+                           "status":  200,
+                           "bytes":  7164
+                       },
+                       {
+                           "path":  "PlaybackControls-CnDM3wDt.js",
+                           "status":  200,
+                           "bytes":  124813
+                       },
+                       {
+                           "path":  "search-CVf7jUuj.js",
+                           "status":  200,
+                           "bytes":  884
+                       },
+                       {
+                           "path":  "space-grotesk-latin-500-normal-CNSSEhBt.woff",
+                           "status":  200,
+                           "bytes":  16988
+                       },
+                       {
+                           "path":  "space-grotesk-latin-500-normal-lFbtlQH6.woff2",
+                           "status":  200,
+                           "bytes":  13312
+                       },
+                       {
+                           "path":  "space-grotesk-latin-600-normal-BflQw4A9.woff",
+                           "status":  200,
+                           "bytes":  16884
+                       },
+                       {
+                           "path":  "space-grotesk-latin-600-normal-DjKNqYRj.woff2",
+                           "status":  200,
+                           "bytes":  13284
+                       },
+                       {
+                           "path":  "space-grotesk-latin-700-normal-CwsQ-cCU.woff",
+                           "status":  200,
+                           "bytes":  16416
+                       },
+                       {
+                           "path":  "space-grotesk-latin-700-normal-RjhwGPKo.woff2",
+                           "status":  200,
+                           "bytes":  12840
+                       },
+                       {
+                           "path":  "TreeLaboratory-ZYkasPC1.js",
+                           "status":  200,
+                           "bytes":  24037
+                       },
+                       {
+                           "path":  "Visualization-DvhClef3.js",
+                           "status":  200,
+                           "bytes":  5353
+                       }
+                   ],
+    "testReport":  {
+                       "path":  "auditoria-testes.json",
+                       "success":  true,
+                       "failed":  0,
+                       "passed":  216
+                   }
+}

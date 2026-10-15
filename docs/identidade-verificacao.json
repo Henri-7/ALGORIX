@@ -1,0 +1,187 @@
+{
+  "palette": [
+    {
+      "token": "--color-bg",
+      "expected": "#0e1117",
+      "present": true
+    },
+    {
+      "token": "--color-secondary",
+      "expected": "#141922",
+      "present": true
+    },
+    {
+      "token": "--color-surface",
+      "expected": "#1a202b",
+      "present": true
+    },
+    {
+      "token": "--color-elevated",
+      "expected": "#222a36",
+      "present": true
+    },
+    {
+      "token": "--color-border",
+      "expected": "#313b49",
+      "present": true
+    },
+    {
+      "token": "--color-primary",
+      "expected": "#c96a2b",
+      "present": true
+    },
+    {
+      "token": "--color-accent",
+      "expected": "#3fa7b5",
+      "present": true
+    },
+    {
+      "token": "--color-ink",
+      "expected": "#f3f5f7",
+      "present": true
+    },
+    {
+      "token": "--color-muted",
+      "expected": "#b4bdc9",
+      "present": true
+    },
+    {
+      "token": "--color-subtle",
+      "expected": "#7e8a9b",
+      "present": true
+    },
+    {
+      "token": "--color-amber",
+      "expected": "#e9b44c",
+      "present": true
+    },
+    {
+      "token": "--color-danger",
+      "expected": "#e06c75",
+      "present": true
+    },
+    {
+      "token": "--color-success",
+      "expected": "#57c785",
+      "present": true
+    }
+  ],
+  "legacyMatches": [],
+  "oldFaviconRemoved": true,
+  "canonicalSymbol": "public/brand/algorix-symbol.svg",
+  "validation": {
+    "lint": 0,
+    "tests": {
+      "exitCode": 0,
+      "passed": 216,
+      "files": 8
+    },
+    "build": 0
+  },
+  "preservation": [
+    {
+      "path": "src/algorithms/trees/timeline.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/engine/usePlayback.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/input.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/tests/audit-algorithms.test.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/tests/audit-interface.test.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/algorithms/searching.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/algorithms/sorting.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/algorithms/graphs/examples.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/algorithms/graphs/model.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/algorithms/graphs/timeline.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/algorithms/trees/layout.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/algorithms/trees/model.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/engine/types.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/features/Comparison.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/tests/algorithms.test.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/tests/graphs.test.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/tests/interface.test.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/tests/network-interface.test.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/tests/playback.test.tsx",
+      "unchanged": true
+    },
+    {
+      "path": "src/tests/setup.ts",
+      "unchanged": true
+    },
+    {
+      "path": "src/tests/trees.test.ts",
+      "unchanged": true
+    },
+    {
+      "path": "package.json",
+      "unchanged": true
+    },
+    {
+      "path": "package-lock.json",
+      "unchanged": true
+    },
+    {
+      "path": "vite.config.ts",
+      "unchanged": true
+    },
+    {
+      "path": "tsconfig.json",
+      "unchanged": true
+    },
+    {
+      "path": "eslint.config.js",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "viewports": [
+    {
+      "client": 360,
+      "page": "home",
+      "scroll": 360,
+      "viewport": 375
+    },
+    {
+      "client": 360,
+      "page": "ordenacao",
+      "scroll": 360,
+      "viewport": 375
+    },
+    {
+      "client": 360,
+      "page": "dijkstra",
+      "scroll": 360,
+      "viewport": 375
+    },
+    {
+      "client": 753,
+      "page": "bfs",
+      "scroll": 753,
+      "viewport": 768
+    },
+    {
+      "client": 753,
+      "page": "dfs",
+      "scroll": 753,
+      "viewport": 768
+    },
+    {
+      "client": 1425,
+      "page": "comparacao",
+      "scroll": 1425,
+      "viewport": 1440
+    },
+    {
+      "client": 1425,
+      "page": "sobre",
+      "scroll": 1425,
+      "viewport": 1440
+    },
+    {
+      "client": 1425,
+      "page": "home",
+      "scroll": 1425,
+      "viewport": 1440
+    }
+  ],
+  "defaultLaboratoryRedirect": "http://127.0.0.1:4175/laboratorio/ordenacao/bubble-sort",
+  "console": []
+}
