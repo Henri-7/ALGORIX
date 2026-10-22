@@ -1,0 +1,84 @@
+[33m0778749[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m feat: initial release of ALGORIX
+ .gitignore                                         |    8 [32m+[m
+ .openai/hosting.json                               |    5 [32m+[m
+ .prettierrc.json                                   |    1 [32m+[m
+ README.md                                          |  131 [32m+[m
+ docs/arvores-grafos.md                             |   58 [32m+[m
+ docs/auditoria-completa.md                         |  109 [32m+[m
+ docs/auditoria-evidencias/avl-desktop.jpg          |  Bin [31m0[m -> [32m88276[m bytes
+ docs/auditoria-evidencias/bfs-tablet.jpg           |  Bin [31m0[m -> [32m54127[m bytes
+ docs/auditoria-evidencias/comparacao-desktop.jpg   |  Bin [31m0[m -> [32m66872[m bytes
+ docs/auditoria-evidencias/dijkstra-mobile.jpg      |  Bin [31m0[m -> [32m27981[m bytes
+ docs/auditoria-evidencias/home-mobile.jpg          |  Bin [31m0[m -> [32m35290[m bytes
+ docs/auditoria-evidencias/navegador.json           |   54 [32m+[m
+ docs/auditoria-testes.json                         |    1 [32m+[m
+ docs/auditoria-verificacoes.json                   |  560 [32m+++[m
+ docs/identidade-evidencias/arvore-remocao.jpg      |  Bin [31m0[m -> [32m88192[m bytes
+ docs/identidade-evidencias/catalogo-tablet.jpg     |  Bin [31m0[m -> [32m52105[m bytes
+ docs/identidade-evidencias/comparador.jpg          |  Bin [31m0[m -> [32m84605[m bytes
+ docs/identidade-evidencias/grafos-desktop.jpg      |  Bin [31m0[m -> [32m87791[m bytes
+ docs/identidade-evidencias/home-desktop.jpg        |  Bin [31m0[m -> [32m84933[m bytes
+ docs/identidade-evidencias/home-mobile.jpg         |  Bin [31m0[m -> [32m35730[m bytes
+ docs/identidade-evidencias/laboratorio-mobile.jpg  |  Bin [31m0[m -> [32m27794[m bytes
+ .../identidade-evidencias/ordenacao-comparacao.jpg |  Bin [31m0[m -> [32m85944[m bytes
+ .../verificacao-navegador.json                     |   81 [32m+[m
+ docs/identidade-verificacao.json                   |  187 [32m+[m
+ docs/identidade-visual.md                          |  108 [32m+[m
+ docs/refinamento-interface.md                      |  141 [32m+[m
+ eslint.config.js                                   |   15 [32m+[m
+ index.html                                         |   18 [32m+[m
+ package-lock.json                                  | 5044 [32m++++++++++++++++++++[m
+ package.json                                       |   43 [32m+[m
+ public/_redirects                                  |    1 [32m+[m
+ public/brand/algorix-symbol.svg                    |    7 [32m+[m
+ src/algorithms/graphs/examples.ts                  |   68 [32m+[m
+ src/algorithms/graphs/model.ts                     |  168 [32m+[m
+ src/algorithms/graphs/timeline.ts                  |  255 [32m+[m
+ src/algorithms/searching.ts                        |   97 [32m+[m
+ src/algorithms/sorting.ts                          |  189 [32m+[m
+ src/algorithms/trees/layout.ts                     |   28 [32m+[m
+ src/algorithms/trees/model.ts                      |   59 [32m+[m
+ src/algorithms/trees/timeline.ts                   |  324 [32m++[m
+ src/components/BrandMark.tsx                       |   13 [32m+[m
+ src/components/InfoPanel.tsx                       |   84 [32m+[m
+ src/components/InputEditor.tsx                     |  123 [32m+[m
+ src/components/LaboratoryNavigation.tsx            |   68 [32m+[m
+ src/components/Layout.tsx                          |   61 [32m+[m
+ src/components/Logo.tsx                            |   12 [32m+[m
+ src/components/PlaybackControls.tsx                |   79 [32m+[m
+ src/components/Visualization.tsx                   |  101 [32m+[m
+ src/components/network/ExecutionPanel.tsx          |   46 [32m+[m
+ src/components/network/SvgViewport.tsx             |   69 [32m+[m
+ src/data/algorithms.ts                             |  202 [32m+[m
+ src/data/catalog.ts                                |    6 [32m+[m
+ src/data/networkAlgorithms.ts                      |   68 [32m+[m
+ src/engine/types.ts                                |   33 [32m+[m
+ src/engine/usePlayback.ts                          |   53 [32m+[m
+ src/features/About.tsx                             |   62 [32m+[m
+ src/features/Catalog.tsx                           |  112 [32m+[m
+ src/features/Comparison.tsx                        |  211 [32m+[m
+ src/features/Home.tsx                              |  271 [32m++[m
+ src/features/Laboratory.tsx                        |  198 [32m+[m
+ src/features/graphs/GraphEditor.tsx                |  344 [32m++[m
+ src/features/graphs/GraphLaboratory.tsx            |  523 [32m++[m
+ src/features/graphs/GraphSvg.tsx                   |  254 [32m+[m
+ src/features/graphs/content.ts                     |   66 [32m+[m
+ src/features/trees/TreeLaboratory.tsx              |  386 [32m++[m
+ src/features/trees/TreeSvg.tsx                     |  126 [32m+[m
+ src/features/trees/content.ts                      |   97 [32m+[m
+ src/lib/input.ts                                   |   27 [32m+[m
+ src/main.tsx                                       |   70 [32m+[m
+ src/styles/global.css                              | 3030 [32m++++++++++++[m
+ src/styles/networks.css                            |  579 [32m+++[m
+ src/tests/algorithms.test.ts                       |  154 [32m+[m
+ src/tests/audit-algorithms.test.ts                 |  240 [32m+[m
+ src/tests/audit-interface.test.tsx                 |  361 [32m++[m
+ src/tests/graphs.test.ts                           |  224 [32m+[m
+ src/tests/interface.test.tsx                       |  103 [32m+[m
+ src/tests/network-interface.test.tsx               |  188 [32m+[m
+ src/tests/playback.test.tsx                        |   95 [32m+[m
+ src/tests/setup.ts                                 |   15 [32m+[m
+ src/tests/trees.test.ts                            |  171 [32m+[m
+ tsconfig.json                                      |   17 [32m+[m
+ vite.config.ts                                     |    7 [32m+[m
+ 82 files changed, 16709 insertions(+)
